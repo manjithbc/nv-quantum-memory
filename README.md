@@ -104,20 +104,6 @@ been fitted to a specific experiment. The phonon bath is a single truncated mode
 uses phenomenological rates. Final fidelities depend strongly on coherent phase accumulation during
 storage, so absolute values should be read as model-level indicators.
 
-## Citation
-
-If you use this code, please cite the paper:
-
-```bibtex
-@article{bc2026phonon,
-  title         = {Phonon-Aware Electron-to-Nuclear Spin Quantum Memory in {NV} Centers},
-  author        = {B C, Manjith},
-  year          = {2026},
-  eprint        = {XXXX.XXXXX},
-  archivePrefix = {arXiv},
-  primaryClass  = {quant-ph}
-}
-```
 
 ## License
 
