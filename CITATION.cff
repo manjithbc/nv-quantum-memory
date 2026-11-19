@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Phonon-Aware Electron-to-Nuclear Spin Quantum Memory in NV Centers (simulation code)"
+authors:
+  - family-names: "B C"
+    given-names: "Manjith"
+    email: "manjithbc@iiitkottayam.ac.in"
+    affiliation: "Indian Institute of Information Technology Kottayam"
+license: MIT
+repository-code: "https://github.com/manjithbc/nv-quantum-memory"
+keywords:
+  - NV center
+  - quantum memory
+  - nuclear spin
+  - spin-phonon coupling
+  - QuTiP
+  - Lindblad master equation
+preferred-citation:
+  type: article
+  title: "Phonon-Aware Electron-to-Nuclear Spin Quantum Memory in NV Centers"
+  authors:
+    - family-names: "B C"
+      given-names: "Manjith"
+  year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:XXXX.XXXXX"

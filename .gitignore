@@ -1,0 +1,26 @@
+
+i# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs (recreate with: python run_all.py)
+figures/
+results/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
