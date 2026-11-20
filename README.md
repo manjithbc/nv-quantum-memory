@@ -8,7 +8,9 @@ Simulation code for the paper:
 
 > **Phonon-Aware Electron-to-Nuclear Spin Quantum Memory in NV Centers**
 > Manjith B C, Indian Institute of Information Technology Kottayam
-> arXiv:XXXX.XXXXX (2026)
+## Research paper
+
+[Read the paper](Phonon_Aware_NV_Quantum_Memory.pdf)
 
 The code builds an open-quantum-system model of a write → store → read quantum memory in a single
 nitrogen-vacancy (NV⁻) center. The NV electron spin (spin‑1) is the interface qubit, a nearby ¹³C
