@@ -1,8 +1,6 @@
 # Phonon-Aware Electron-to-Nuclear Spin Quantum Memory in NV Centers
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![QuTiP 5](https://img.shields.io/badge/QuTiP-5.x-blue.svg)](https://qutip.org)
+
 
 Simulation code for the paper:
 
