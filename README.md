@@ -1,14 +1,14 @@
 # Phonon-Aware Electron-to-Nuclear Spin Quantum Memory in NV Centers
 
-
-
 Simulation code for the paper:
 
 > **Phonon-Aware Electron-to-Nuclear Spin Quantum Memory in NV Centers**
 > Manjith B C, Indian Institute of Information Technology Kottayam
+
 ## Research paper
 
-[Read the paper](Phonon_Aware_NV_Quantum_Memory.pdf)
+The paper has been submitted to arXiv (submission ID `submit/8425035`) and is awaiting announcement.
+The public link (`https://arxiv.org/abs/XXXX.XXXXX`) will be added here once arXiv assigns the permanent identifier.
 
 The code builds an open-quantum-system model of a write → store → read quantum memory in a single
 nitrogen-vacancy (NV⁻) center. The NV electron spin (spin‑1) is the interface qubit, a nearby ¹³C
