@@ -1,14 +1,18 @@
 # Phonon-Aware Electron-to-Nuclear Spin Quantum Memory in NV Centers
 
-Simulation code for the paper:
+[![arXiv](https://img.shields.io/badge/arXiv-2611.33936-b31b1b.svg)](https://arxiv.org/abs/2611.33936)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![QuTiP 5](https://img.shields.io/badge/QuTiP-5-6a5acd.svg)](https://qutip.org)
 
-> **Phonon-Aware Electron-to-Nuclear Spin Quantum Memory in NV Centers**
-> Manjith B C, Indian Institute of Information Technology Kottayam
+Official simulation code for the paper:
 
-## Research paper
+> **Phonon-Aware Electron-to-Nuclear Spin Quantum Memory in NV Centers**<br>
+> Manjith B C<br>
+> Department of Computer Science and Engineering (Cyber Security), Indian Institute of Information Technology Kottayam<br>
+> arXiv:2611.33936 (2026) · [Abstract](https://arxiv.org/abs/2611.33936) · [PDF](https://arxiv.org/pdf/2611.33936)
 
-The paper has been submitted to arXiv (submission ID `submit/8425035`) and is awaiting announcement.
-The public link (`https://arxiv.org/abs/XXXX.XXXXX`) will be added here once arXiv assigns the permanent identifier.
+## Overview
 
 The code builds an open-quantum-system model of a write → store → read quantum memory in a single
 nitrogen-vacancy (NV⁻) center. The NV electron spin (spin‑1) is the interface qubit, a nearby ¹³C
@@ -26,7 +30,7 @@ The dynamics are solved with the Lindblad master equation in [QuTiP](https://qut
 ├── nv_memory.py                     # the model: Hamiltonians, collapse operators, protocol, plots
 ├── run_all.py                       # regenerates every figure + Table 1 from the paper
 ├── notebooks/
-│   └── nv_quantum_memory.ipynb      # original notebook, with outputs as reported in the paper
+│   └── nv_quantum_memory.ipynb      # interactive notebook version of nv_memory.py
 ├── figures/                         # created by run_all.py
 ├── results/                         # created by run_all.py (table1_results.csv, summary.json)
 ├── requirements.txt
@@ -104,11 +108,30 @@ been fitted to a specific experiment. The phonon bath is a single truncated mode
 uses phenomenological rates. Final fidelities depend strongly on coherent phase accumulation during
 storage, so absolute values should be read as model-level indicators.
 
+## Citation
+
+If you use this code or build on the results, please cite the paper:
+
+```bibtex
+@misc{bc2026phonon,
+  author        = {B C, Manjith},
+  title         = {Phonon-Aware Electron-to-Nuclear Spin Quantum Memory in NV Centers},
+  year          = {2026},
+  eprint        = {2611.33936},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  url           = {https://arxiv.org/abs/2611.33936}
+}
+```
+
+GitHub's **Cite this repository** button (from `CITATION.cff`) gives the same reference in APA and BibTeX formats.
 
 ## License
 
-Code is released under the [MIT License](LICENSE).
+The code is released under the [MIT License](LICENSE). The paper is distributed by arXiv under the license selected at submission.
 
 ## Contact
 
-Manjith B C — manjithbc@iiitkottayam.ac.in
+Manjith B C — [manjithbc@iiitkottayam.ac.in](mailto:manjithbc@iiitkottayam.ac.in)
+
+Questions, bug reports and suggestions are welcome through [GitHub Issues](https://github.com/manjithbc/nv-quantum-memory/issues).
